@@ -1,15 +1,11 @@
 * {
-  padding: 0;
   margin: 0;
-  --card-color: hsl(0, 0%, 100%);
-  --main-bg-color: hsl(212, 45%, 89%);
-  --text-color: hsl(220, 15%, 55%);
-  --title-color: hsl(218, 44%, 22%);
+  padding: 0;
 }
 
 body {
   font-family: "Outfit", arial;
-  background-color: var(--main-bg-color);
+  background-color: hsl(212, 45%, 89%);
 }
 
 .container {
@@ -21,7 +17,7 @@ body {
 }
 
 .qr_code {
-  background-color: white;
+  background-color: hsl(0, 0%, 100%);
   text-align: center;
   border-radius: 20px;
   box-shadow: 1px 32px 131px -63px rgba(0, 0, 0, 0.75);
@@ -30,7 +26,7 @@ body {
 }
 
 .qr_image {
-  width: 300px;
+  width: 280px;
   height: auto;
   border-radius: 5%;
   margin: 15px;
@@ -38,12 +34,12 @@ body {
 
 .qr_title {
   font-weight: 700;
-  color: var(--title-color);
+  color: hsl(220, 15%, 55%);
 }
 
 .qr_text {
   font-weight: 400;
-  color: var(--text-color);
+  color: hsl(220, 15%, 55%);
   font-size: 15px;
   margin: 10px 0 40px 0;
 }
