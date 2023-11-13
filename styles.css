@@ -34,12 +34,12 @@ body {
 
 .qr_title {
   font-weight: 700;
-  color: hsl(220, 15%, 55%);
+  color: hsl(218, 44%, 22%);
 }
 
 .qr_text {
   font-weight: 400;
   color: hsl(220, 15%, 55%);
   font-size: 15px;
-  margin: 10px 0 40px 0;
+  margin: 15px 0 40px 0;
 }
